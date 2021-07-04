@@ -16,10 +16,11 @@ p{
     text-align: justify;
     padding-right: 20%;
 }
-section{
+
+.flexible-container{
     display: flex;
     margin-bottom: 100px;
-    align-items: center;
+    
 }
 .half-width{
     width: 50%;
