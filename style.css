@@ -1,5 +1,6 @@
 body{
     font-family: 'Comic Neue', cursive;
+    margin: 0;
 }
 
 h1{
@@ -12,22 +13,47 @@ h1{
 p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 500;
+    text-align: justify;
+    padding-right: 20%;
 }
 section{
     display: flex;
+    margin-bottom: 100px;
+    align-items: center;
 }
 .half-width{
     width: 50%;
     padding-left: 5%;
+    padding-right: 2%;
+    
 }
 .half-width img{
-    width: 80%;
+    width: 90%;
+    padding-top: 20px;
+    margin-right: 10px;
+    
 }
 .link-botton{
+    text-align: center;
     text-decoration: none;
     background-image: linear-gradient(#F78868, #FB6655);
-    padding: 10px 40px;
+    padding: 10px 50px;
     border-radius: 5px;
     color: white;
     font-weight: 700;
+    
+
 }
+
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    
+}
+
