@@ -10,6 +10,9 @@ h1{
 .orange-color{
     color: orange;
 }
+h2{
+    font-size: 40px;
+}
 p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 500;
@@ -20,19 +23,20 @@ p{
 .flexible-container{
     display: flex;
     margin-bottom: 100px;
+    /* align-items: center; */
     
 }
 .half-width{
     width: 50%;
     padding-left: 5%;
-    padding-right: 2%;
-    
+    padding-right: 1%;
+        
 }
 .half-width img{
     width: 90%;
     padding-top: 20px;
     margin-right: 10px;
-    
+      
 }
 .link-botton{
     text-align: center;
@@ -58,3 +62,36 @@ p{
     
 }
 
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.experience-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+    padding-left: 50px;
+    
+}
+
+#broder-side{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+    
+}
+
+#border-side1{
+    border-left: 7px solid;
+    border-image: linear-gradient(salmon, tomato);
+    border-image-slice: 1;
+    
+}
+
+footer p{
+    text-align: center;
+}
